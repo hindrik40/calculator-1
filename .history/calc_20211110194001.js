@@ -10,12 +10,6 @@ let Result = () => {
    catch(err){
        alert("Skriv in en riktig beräkning ");
    }
-}
 
-function clr(){
-    result.value=""
 
-}
-function del(){
-    result.value=result.value.slice(0,-1);
 }

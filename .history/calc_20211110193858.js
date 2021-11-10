@@ -8,14 +8,8 @@ let Result = () => {
         result.value=eval(result.value)
     }
    catch(err){
-       alert("Skriv in en riktig beräkning ");
+       alert("Enter a valid Result ");
    }
-}
 
-function clr(){
-    result.value=""
 
-}
-function del(){
-    result.value=result.value.slice(0,-1);
 }
